@@ -1296,8 +1296,6 @@
 
             keyup = function (e) {
                 keyState[e.which] = 'r';
-                e.stopPropagation();
-                e.preventDefault();
             },
 
             change = function (e) {
